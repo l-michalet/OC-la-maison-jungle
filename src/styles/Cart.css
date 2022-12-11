@@ -1,0 +1,100 @@
+.lmj-cart{
+    background-color: #31b572;
+    color: white;
+    padding-top: 65px;
+    padding-left: 25px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+    border-right: solid 2px black;
+}
+
+.lmj-cart-add-button {
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.lmj-cart-empty {
+    padding-left: 20px;
+}
+
+.lmj-cart-list-item {
+    position: relative;
+    left: -15px;
+    list-style-type: disc;
+    color: white;
+    padding-top: 10px;
+}
+
+.lmj-cart-toggle-button {
+    position: relative;
+    top: -30px;
+    background: none;
+    width: 100px;
+    outLine: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+    align-self: flex-end;
+    text-decoration: underline;
+}
+
+.lmj-cart-closed {
+    padding-top: 50px;
+    width: 100px;
+    background-color: #31b572;
+    border-right: solid 2px black;
+}
+
+.lmj-cart-empty-button {
+    display: inline-block;
+    background-color: #31b472;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    top: -45px;
+    left: 180px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.lmj-cart-buy-button {
+    display: inline-block;
+    background-color: #31b472;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    cursor: pointer;
+    top: -45px;
+    left: 180px;
+    font-weight: 800;
+    font-size: 17px;
+    color: black;
+    border: thick double black;
+}
+
+.lmj-cart-total{
+    border-top: solid;
+    text-align: end;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.lmj-cart-cancel-button{
+    position: relative;
+    left: 50px;
+    top: -23px;
+    width: 12px;
+    padding: 0px;
+    font-size: 8px;
+    border: solid 2px;
+}

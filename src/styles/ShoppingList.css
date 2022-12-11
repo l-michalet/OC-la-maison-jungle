@@ -1,0 +1,27 @@
+.lmj-shopping-list {
+    width: 100%;
+}
+
+.lmj-plant-list{
+    list-style-type: none;
+    padding: 20px 32px 32px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.lmj-add-cart-btn{
+    display: inline-block;
+    background-color: #31b472;
+    border-radius: 10px;
+    border: none;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    position: relative;
+    top: -45px;
+    left: 180px;
+    font-weight: 600;
+}

@@ -1,0 +1,56 @@
+.lmj-plant-item-cover {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.lmj-plant-item-name {
+    padding: 12px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.lmj-plant-item {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.lmj-plant-item-care{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    padding: 8px;
+}
+
+.lmj-plant-item-care-water{
+    position: relative;
+    top: -1px;
+    margin-right: 8px;
+}
+
+.lmj-plant-item-sale{
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    color: white;
+    padding: 5px 10px;
+    background-color: #FF7F50;
+    font-size: 13px;
+}
+
+.lmj-plant-item-price {
+    position: absolute;
+    border-radius: 20px 20px 20px 0;
+    background-color: #31b472;
+    color: white;
+    padding: 15px;
+    right: 0;
+    top: 0;
+    font-weight: 500;
+}
